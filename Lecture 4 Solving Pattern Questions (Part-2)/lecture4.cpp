@@ -310,4 +310,29 @@ int main(){
 
 //     } 
 
+//                                       // Pattern 16         
+
+//         int n ; 
+//     cin >> n ;
+//     int row = 1;
+    
+   
+
+//     while(row<=n){
+// int col = 1;
+// char ch = 'A' +row -1;
+
+// while (col<= row ){
+//    cout << ch << " " ;
+//   ch = ch+1;
+//    col++;
+
+// }
+// cout << endl;
+// row++;
+
+//     } 
+
+
+
 }
