@@ -175,25 +175,50 @@ int main(){
 //     }
 
 //                                       // Pattern 10            
-        int n ; 
-    cin >> n ;
-    int row = 1;
+//         int n ; 
+//     cin >> n ;
+//     int i = 1;
    
 
-    while(row<=n){
-int col = 1;
+//     while(i<=n){
+// int j = 1;
 
-while (col<=row)
-{
-   cout << row-col+1 << " ";
+// while (j<=i)
+// {
+//    cout << i-j+1 << " ";
   
-   col++;
+//    j++;
 
-}
-cout << endl;
-row++;
+// }
+// cout << endl;
+// i++;
+//     }
 
-    }
+//                                     // pattern 11
+
+           
+//         int n ; 
+//     cin >> n ;
+//     int row = 1;
+   
+
+//     while(row<=n){
+// int col = 1;
+// char ch = 'A' + row - 1;
+
+// while (col<= n )
+// {
+//    cout << ch << " " ;
+  
+//    col++;
+
+// }
+// cout << endl;
+// row++;
+
+//     } 
+
+
 
 
 
