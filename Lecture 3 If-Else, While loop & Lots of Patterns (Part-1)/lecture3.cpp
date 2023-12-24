@@ -92,26 +92,36 @@ int main(){
 //    cout << "Babbar" << endl;
 //  }
 
- //                                                //Home work Question 2
+//  //                                                //Home work Question 2
 
- char c;
- cout << "enter a character"<< endl;
- cin >> c;
+//  char c;
+//  cout << "enter a character"<< endl;
+//  cin >> c;
 
-  if (int(c) >= 97 && int(c) <= 122)
- {
-    cout << "This is LowerCase"<< endl;
- }
- else if (int(c) >= 65 && int(c) <= 90)
- {
-    cout << "This is Uppercase" << endl;
- }
- else if(int(c) >= 48 && int(c) <= 57)
- {
-   cout << "This is numeric" << endl;
- }
-
-
+//   if (int(c) >= 97 && int(c) <= 122)
+//  {
+//     cout << "This is LowerCase"<< endl;
+//  }
+//  else if (int(c) >= 65 && int(c) <= 90)
+//  {
+//     cout << "This is Uppercase" << endl;
+//  }
+//  else if(int(c) >= 48 && int(c) <= 57)
+//  {
+//    cout << "This is numeric" << endl;
+//  }
 
 
+                                             // While Loop 
+
+   int n;
+   cout << "Enter the number of elements you want in array : ";
+   cin >> n;
+   int i= 1;
+   while (i<=n)
+   {
+      cout << i << endl;  
+      i++;                            
+   }
+   
 }
