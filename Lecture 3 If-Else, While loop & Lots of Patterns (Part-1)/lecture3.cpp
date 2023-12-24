@@ -112,16 +112,122 @@ int main(){
 //  }
 
 
-                                             // While Loop 
+   //                                           // While Loop 
 
-   int n;
-   cout << "Enter the number of elements you want in array : ";
-   cin >> n;
-   int i= 1;
-   while (i<=n)
-   {
-      cout << i << endl;  
-      i++;                            
-   }
+   // int n;
+   // cout << "Enter the number of elements you want in array : ";
+   // cin >> n;
+   // int i= 1;
+   // while (i<=n)
+   // {
+   //    cout << i << " ";  
+   //    i++;                            
+   // }
+
+//                                              // Sum using loop 
+//    int n ;
+//    cout << "Enter a Value ";
+//    cin >> n ;
+//    int i = 1;
+//    int sum = 0;
+
+// while(i<=n){
+//    sum = sum + i;
+//    i++;
    
+// }
+// cout << sum <<endl;
+
+//                                           // Home work Question 3
+//      int n ;
+//    cout << "Enter a Value ";
+//    cin >> n ;
+//    int i = 2;
+//    int sum = 0;
+
+// while(i<=n){
+//    sum = sum + i;
+//    i = i+2;
+   
+// }
+// cout << sum <<endl;
+
+   //                                          // Prime Number
+   //    int n ;
+   // cout << "Enter a number ";
+   // cin >> n ;
+   // int i = 2;
+
+   // while(i<n){
+   //    if(n%i==0)
+   // {
+   //    cout<<"The number is not prime for "<< i << endl;
+       
+   // }
+   //    else{
+   //       cout<<"The number is prime for "<< i << endl;
+      
+   //    }
+   //    i++;
+   //    }
+
+//                                           //  Pattern 1
+    
+//     int n ; 
+//     cin >> n ;
+//     int i = 1;
+
+//     while(i<=n){
+// int j= 1;
+// while (j<=n)
+// {
+//    cout << "*";
+//    j++;
+
+// }
+// cout << endl;
+// i++;
+
+//     }
+   
+                                          //  Pattern 2
+    
+    int n ; 
+    cin >> n ;
+    int i = 1;
+
+    while(i<=n){
+int j= 1;
+while (j<=n)
+{
+   cout << i;
+   j++;
+
+}
+cout << endl;
+i++;
+
+    }
+   
+//                                              //  Pattern Practice
+    
+//     int n ; 
+//     cin >> n ;
+//     int i = 1;
+
+//     while(i<=n){
+// int j= i;
+// while (j<=n)
+// {
+//    cout << "*";
+//    j++;
+
+// }
+// cout << endl;
+// i++;
+
+//     }
+
+
+
 }
