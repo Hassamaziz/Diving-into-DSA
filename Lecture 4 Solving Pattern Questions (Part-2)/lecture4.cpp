@@ -356,6 +356,34 @@ int main(){
 
 //     } 
 
+//                                       // Pattern 18        
+
+//         int n ; 
+//     cin >> n ;
+//     int row = 1;
+       
+   
+
+//     while(row<=n){
+//   int space = n-row;
+//   while (space)
+//   {
+//     cout << " ";
+//     space--;
+//   }
+//   int col = 1;
+//   while (col<=row)
+//   {
+//    cout << "*";
+//    col++;
+//   }
+
+//   cout << endl;
+//   row++ ;
+  
+
+//     } 
+
 
 
 }
