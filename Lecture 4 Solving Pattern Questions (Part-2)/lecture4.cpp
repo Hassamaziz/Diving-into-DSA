@@ -153,6 +153,26 @@ int main(){
 
 //     }
 
+//                                       // Pattern 9 Alternate Way             
+//         int n ; 
+//     cin >> n ;
+//     int row = 1;
+   
+
+//     while(row<=n){
+// int col = row;
+
+// while (col< row * 2 )
+// {
+//    cout << col << " ";
+  
+//    col++;
+
+// }
+// cout << endl;
+// row++;
+
+//     }
 
 
 
