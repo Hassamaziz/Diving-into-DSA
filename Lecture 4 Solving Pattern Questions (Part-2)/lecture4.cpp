@@ -241,7 +241,7 @@ int main(){
 
 //     } 
 
-//                                       // Pattern 14           
+//                                       // Pattern 13          
 
 //         int n ; 
 //     cin >> n ;
@@ -265,7 +265,7 @@ int main(){
 //     } 
 
 
-//                                       // Pattern 13          
+//                                       // Pattern 14        
 
 //         int n ; 
 //     cin >> n ;
@@ -279,6 +279,29 @@ int main(){
 // {
 //    cout << ch << " " ;
 //   ch = ch+1;
+//    col++;
+
+// }
+// cout << endl;
+// row++;
+
+//     } 
+
+//                                       // Pattern 15          
+
+//         int n ; 
+//     cin >> n ;
+//     int row = 1;
+//     char value = 'A';
+   
+
+//     while(row<=n){
+// int col = 1;
+
+
+// while (col<= row ){
+//    cout << value << " " ;
+//   value++;
 //    col++;
 
 // }
