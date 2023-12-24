@@ -218,7 +218,7 @@ int main(){
 
 //     } 
 
-// //                                       // Pattern 12           
+ //                                       // Pattern 12           
 
 //         int n ; 
 //     cin >> n ;
@@ -240,6 +240,30 @@ int main(){
 // row++;
 
 //     } 
+
+//                                       // Pattern 14           
+
+//         int n ; 
+//     cin >> n ;
+//     int row = 1;
+   
+
+//     while(row<=n){
+// int col = 1;
+// char ch = 'A' + col + row - 2;
+
+// while (col<= n )
+// {
+//    cout << ch << " " ;
+//   ch++;
+//    col++;
+
+// }
+// cout << endl;
+// row++;
+
+//     } 
+
 
 //                                       // Pattern 13          
 
