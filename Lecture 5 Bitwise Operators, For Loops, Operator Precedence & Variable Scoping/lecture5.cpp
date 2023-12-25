@@ -9,4 +9,35 @@ int main(){
     //  cout<<" a|b "<< (a|b) << endl;
     //  cout<<" ~a "<< (~a) << endl;
     //  cout<<" a^b "<< (a^b) << endl;
+
+                                    // left shift right shift
+    // cout << (16>>1) << endl;
+    //  cout << (16>>2) << endl;
+    //   cout << (17<<1) << endl;
+    //    cout << (17<<2) << endl;
+                                    // For Loop 
+    // int n ;
+    // cout << "enter value: " << endl;
+    // cin >> n;
+    // cout << "Printing count from 1 to " << n <<endl;
+    // for (int i = 1; i <=n; i++)
+    
+    // {
+    // cout << i <<" " ;
+    // }
+
+         // Loop Sum
+          int n ;
+          int sum =0;
+    cout << "enter value: " << endl;
+    cin >> n;
+    cout << "Printing sum from 1 to " << n <<endl;
+    for (int i = 1; i <=n; i++)
+    
+    {
+    sum = sum+i;
+    } 
+    cout << sum ;
+    
+
 }
