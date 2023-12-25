@@ -79,7 +79,32 @@ int main(){
     //     cout << n << " is not a prime number";
     //     }
 
+//     // Leetcode Question 1
+// int n = 12345;
+// int prod=1;
+// int sum = 0;
+//     while (n!=0)
+//     {
+//         int rem = n%10;
+//         prod *=rem;
+//         sum +=rem;
+//         n/=10;
+//     }
+
+//     cout << "Answer is "<< (prod-sum) << endl;
     
+    
+//     // Leetcode Question 2 
+//    long long int n = 001001000000;
+//     int count = 0;
+
+//     while(n!=0){
+//         if(n&1){
+//             count++;
+//         }
+//         n = n>>1;
+//     }
+//     cout << count;
     
    
     
