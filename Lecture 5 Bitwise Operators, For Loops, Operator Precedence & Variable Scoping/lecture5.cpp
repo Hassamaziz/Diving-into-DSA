@@ -57,27 +57,27 @@ int main(){
     //     b=fib;
     // } 
 
-    // Prime number
-    int n ;
-    cout <<"Enter a number to check ";
-    cin >> n;
-    bool isPrime = 1;
-    for ( int i = 2; i<n; i++)
-    {
-        if(n % i == 0 ){
-        isPrime = 0;
-            break;
-        }
-        else{
-            isPrime = 1;
-        }
-    }
-    if (isPrime==1){
-        cout<< n << " is a prime number";
-    }
-    else{
-        cout << n << " is not a prime number";
-        }
+    // // Prime number
+    // int n ;
+    // cout <<"Enter a number to check ";
+    // cin >> n;
+    // bool isPrime = 1;
+    // for ( int i = 2; i<n; i++)
+    // {
+    //     if(n % i == 0 ){
+    //     isPrime = 0;
+    //         break;
+    //     }
+    //     else{
+    //         isPrime = 1;
+    //     }
+    // }
+    // if (isPrime==1){
+    //     cout<< n << " is a prime number";
+    // }
+    // else{
+    //     cout << n << " is not a prime number";
+    //     }
 
     
     
