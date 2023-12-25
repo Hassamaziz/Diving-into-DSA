@@ -26,18 +26,41 @@ int main(){
     // cout << i <<" " ;
     // }
 
-         // Loop Sum
-          int n ;
-          int sum =0;
-    cout << "enter value: " << endl;
-    cin >> n;
-    cout << "Printing sum from 1 to " << n <<endl;
-    for (int i = 1; i <=n; i++)
+    //      // Loop Sum
+    //       int n ;
+    //       int sum =0;
+    // cout << "enter value: " << endl;
+    // cin >> n;
+    // cout << "Printing sum from 1 to " << n <<endl;
+    // for (int i = 1; i <=n; i++)
     
-    {
-    sum = sum+i;
-    } 
-    cout << sum ;
+    // {
+    // sum = sum+i;
+    // } 
+    // cout << sum ;
+
+    //      // Fibonacci series 
+
+    //      int n; 
+    //     int a = 0;
+    //     int b= 1;
+    // cout << "enter value for fibonacci: " << endl;
+    // cin >> n;
+
+    // cout << "Printing fibonacci from 0 to " << n <<endl;
+    //  cout << a << " " << b << " ";
+    // for (int i = 1; i <=n; i++)
+    // { 
+    //     int fib = a+b;
+    //     cout << fib << " ";
+    //     a=b;
+    //     b=fib;
+    // } 
+   
+    
+    
+          
+
     
 
 }
