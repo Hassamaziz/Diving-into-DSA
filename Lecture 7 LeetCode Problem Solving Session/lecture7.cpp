@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 using namespace std;
 
 int main(){
@@ -44,6 +45,24 @@ int main(){
         // int ans = (~n) & mask;
 
         // cout<<  ans;
+        //                                         // 3rd question
+        //    int n;
+        //    cin >>n;
+        //    for (int i = 0; i <=30; i++)
+        //    {
+        //     double ans = (pow(2,i));
+          
+
+        //     if (ans == n)
+        //     {
+        //         cout << "Number is a power of 2";
+        //     } 
+         
+        //     }
+            
+        //     return 0;
+                                          
+                                          
 
 
 }
