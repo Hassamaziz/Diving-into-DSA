@@ -55,6 +55,14 @@ int nCr(int n,int r){
 
 }
 
+void printCounting(int num) {
+
+    for(int i=1; i<=num; i++) {
+        cout<< i << " ";
+    }
+    cout<<endl;
+}
+
 
 int main(){
     // cout<<"Enter the base number: ";
@@ -90,11 +98,17 @@ int main(){
             //   cin >> num;
             //   cout << "Factorial of " << num << " is " << factorial(num) << endl;
 
-                                // nCr Function 
+    //                             // nCr Function 
 
-       int n , r;
-       cout << "Enter a value for n and r \n";
-       cin >> n >> r;
-       cout << n << " C " << r << " = " << nCr(n,r) << endl;
+    //    int n , r;
+    //    cout << "Enter a value for n and r \n";
+    //    cin >> n >> r;
+    //    cout << n << " C " << r << " = " << nCr(n,r) << endl;
+
+    //                                  // Print Counting
+
+    //    int n ;
+    //    cin >> n;
+    //    printCounting(n);              
 
 }
