@@ -47,6 +47,14 @@ int factorial(int n){
     
 }
 
+int nCr(int n,int r){
+    int num = factorial(n);
+    int den = factorial(r) * factorial(n - r);
+    return num/den;
+
+
+}
+
 
 int main(){
     // cout<<"Enter the base number: ";
@@ -75,9 +83,18 @@ int main(){
     //     cout << "Your number is odd";
     // } 
 
-                        // Factorial function
-              int num;
-              cin >> num;
-              cout << "Factorial of " << num << " is " << factorial(num) << endl;
+
+
+            //             // Factorial function
+            //   int num;
+            //   cin >> num;
+            //   cout << "Factorial of " << num << " is " << factorial(num) << endl;
+
+                                // nCr Function 
+
+       int n , r;
+       cout << "Enter a value for n and r \n";
+       cin >> n >> r;
+       cout << n << " C " << r << " = " << nCr(n,r) << endl;
 
 }
