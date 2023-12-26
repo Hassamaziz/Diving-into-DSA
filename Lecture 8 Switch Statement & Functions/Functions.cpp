@@ -51,13 +51,17 @@ int main(){
     // int answer2 = power2();
     // cout << "\n\nThe result is : "<<answer2 ;
 
-    int num;
-    cin >> num;
-    if(isEven(num)){
-        cout << "Your number is even";
-    }
-    else{
-        cout << "Your number is odd";
-    }
+
+             //   Is even Function 
+
+    // int num;
+    // cin >> num;
+    // if(isEven(num)){
+    //     cout << "Your number is even";
+    // }
+    // else{
+    //     cout << "Your number is odd";
+    // } 
+
 
 }
