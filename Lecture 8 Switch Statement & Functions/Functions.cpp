@@ -63,6 +63,15 @@ void printCounting(int num) {
     cout<<endl;
 }
 
+bool isPrime(int n ) {
+   for(int i = 2; i < n; i++){
+       if(n % i == 0) {
+      
+          return 0;
+        }
+   }
+   return 1;
+}
 
 int main(){
     // cout<<"Enter the base number: ";
@@ -109,6 +118,17 @@ int main(){
 
     //    int n ;
     //    cin >> n;
-    //    printCounting(n);              
+    //    printCounting(n);    
+
+                                    // Prime or Not
+
+        int num;
+        cout << "Enter a Number to check whether it's prime or not : ";
+        cin >> num;
+        if (isPrime(num)) {
+            cout << num << " is a prime number." << endl;
+            } else {
+                cout << num << " is not a prime number." << endl;
+                }
 
 }
