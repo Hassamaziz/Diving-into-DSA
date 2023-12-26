@@ -73,6 +73,41 @@ bool isPrime(int n ) {
    return 1;
 }
 
+int AP(int n)
+{
+  int ap=3*n+7;
+  return ap;
+}
+
+int setBits(int n){
+  //set all the bits in a number to 1 and return the count of set bits.
+  int count = 0 ;
+  while (n!=0)
+  {
+    if(n&1){
+      count ++;
+    }
+    n >>= 1;
+
+    
+  }
+  return count;
+  
+}
+
+int setBits2(int a)
+{
+  int count = 0;
+  while(a!=0)
+  {
+    if(a&1)
+    {
+      count++;
+    }
+    a=a>>1;
+  }
+  return count; 
+}
 int main(){
     // cout<<"Enter the base number: ";
     // int num;
@@ -120,15 +155,35 @@ int main(){
     //    cin >> n;
     //    printCounting(n);    
 
-                                    // Prime or Not
+        //                             // Prime or Not
 
-        int num;
-        cout << "Enter a Number to check whether it's prime or not : ";
-        cin >> num;
-        if (isPrime(num)) {
-            cout << num << " is a prime number." << endl;
-            } else {
-                cout << num << " is not a prime number." << endl;
-                }
+        // int num;
+        // cout << "Enter a Number to check whether it's prime or not : ";
+        // cin >> num;
+        // if (isPrime(num)) {
+        //     cout << num << " is a prime number." << endl;
+        //     } else {
+        //         cout << num << " is not a prime number." << endl;
+        //         }
+
+        //                             //  Homework question 1
+        // int n;
+        // cin >> n;
+        //   int ans=AP(n);
+        // cout<<"Answer is="<<ans<<endl;
+
+                                      // Homework Question 2
+
+        int a,b;
+  cin>>a>>b;
+  int ans1=setBits(a);
+  int ans2=setBits2(b);
+  cout<<"Set bits of A="<<ans1<<endl;
+  cout<<"Set bits of B="<<ans2<<endl;
+  int ans=ans1+ans2;
+
+  cout<<"Total set bits of A and B are ="<<ans<<endl;
+
+ 
 
 }
