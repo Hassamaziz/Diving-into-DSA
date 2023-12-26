@@ -61,8 +61,31 @@ int main(){
         //     }
             
         //     return 0;
+
+
+          //                                         // 3rd question alternate way
+           int n;
+           cin >>n;
+           int ans = 1;
+           for (int i = 0; i <=30; i++)
+           {
+          
+            if (ans == n)
+            {
+                cout << "Number is a power of 2";
+            } 
+            if (ans< (INT_MAX/2))
+            {
+                 ans = ans * 2;
+            }
+            
+                 
+            }
+            
+            return 0;
                                           
-                                          
+            
+
 
 
 }
