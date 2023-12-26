@@ -108,6 +108,19 @@ int setBits2(int a)
   }
   return count; 
 }
+
+int fibonacci(int n)
+{
+    int a = 0;
+    int b = 1;
+    for (int i = 2; i < n; i++)
+    {
+        int next = a + b;
+        a = b;
+        b = next;
+    } 
+      return b;
+}
 int main(){
     // cout<<"Enter the base number: ";
     // int num;
@@ -172,17 +185,23 @@ int main(){
         //   int ans=AP(n);
         // cout<<"Answer is="<<ans<<endl;
 
-                                      // Homework Question 2
+  //                                     // Homework Question 2
 
-        int a,b;
-  cin>>a>>b;
-  int ans1=setBits(a);
-  int ans2=setBits2(b);
-  cout<<"Set bits of A="<<ans1<<endl;
-  cout<<"Set bits of B="<<ans2<<endl;
-  int ans=ans1+ans2;
+  //       int a,b;
+  // cin>>a>>b;
+  // int ans1=setBits(a);
+  // int ans2=setBits2(b);
+  // cout<<"Set bits of A="<<ans1<<endl;
+  // cout<<"Set bits of B="<<ans2<<endl;
+  // int ans=ans1+ans2;
 
-  cout<<"Total set bits of A and B are ="<<ans<<endl;
+  // cout<<"Total set bits of A and B are ="<<ans<<endl;
+
+                                          // Homework Question 3
+             int n;
+             cin >> n;
+    
+             cout << "The " <<n<<"th term of the series is = "<< fibonacci(n) << endl;                                 
 
  
 
