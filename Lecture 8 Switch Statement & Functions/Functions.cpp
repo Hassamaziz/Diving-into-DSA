@@ -36,6 +36,18 @@ int isEven(int a){
   
 }
 
+int factorial(int n){
+    
+    int fact = 1;
+    for (int i = 1; i <=n; i++)
+    {
+        fact = fact * i;
+    }
+    return fact;
+    
+}
+
+
 int main(){
     // cout<<"Enter the base number: ";
     // int num;
@@ -63,5 +75,9 @@ int main(){
     //     cout << "Your number is odd";
     // } 
 
+                        // Factorial function
+              int num;
+              cin >> num;
+              cout << "Factorial of " << num << " is " << factorial(num) << endl;
 
 }
