@@ -23,7 +23,7 @@ int main() {
         }
     }
 
-    // Print the elements in the ans vector
+   
     for (int k = 0; k < ans.size(); k++) {
         cout << ans[k] << " ";
     }
