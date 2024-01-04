@@ -5,6 +5,29 @@ int main(){
 
 vector<int> v /*= {1,2,3,4} */ ;
 
+vector<int> a(5,1);
+
+vector<int> last(a);
+
+cout << "Printing last "<< endl;
+for (int i : last)
+{
+    cout <<last[i]<< " " ;
+}
+cout << endl;
+
+
+
+cout << "Printing a "<< endl;
+for (int i : a)
+{
+    cout << a[i]<< " " ;
+}
+cout << endl;
+
+
+
+
 cout << "Capacity of this vector is "<<v.capacity()<<endl;
 
 v.push_back(5); 
