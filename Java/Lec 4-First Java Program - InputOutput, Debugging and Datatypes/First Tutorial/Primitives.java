@@ -17,6 +17,8 @@ public class Primitives {
         // System.out.println("Float: " + myFloat);
         // System.out.println("Long Integer: " + myLongInt);
 
+        // int myMillions = 599_000_000;
+        // System.out.println(myMillions);
 
     }
     
