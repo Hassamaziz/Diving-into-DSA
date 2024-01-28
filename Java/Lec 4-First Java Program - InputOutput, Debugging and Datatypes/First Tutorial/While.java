@@ -20,5 +20,11 @@ public class While {
         //     count++;
         // }
 
+        // // For Loop
+
+        // for (int i = 1; i <= 5; i++) {
+        //     System.out.println(i);
+        // }
+
     }
 }
