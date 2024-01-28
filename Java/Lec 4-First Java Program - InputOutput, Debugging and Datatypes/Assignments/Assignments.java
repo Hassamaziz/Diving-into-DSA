@@ -128,12 +128,29 @@ public class Assignments {
     // }
 
 
-    // Question 9: To find Armstrong Number between two given number.
-    Scanner scanner = new Scanner(System.in);
-    System.out.print("Enter first number: ");
-    int num1 = scanner.nextInt();
-    System.out.print("Enter second number: ");
-    int num2 = scanner.nextInt();
+//     // Question 9: To find Armstrong Number between two given number.
+//     Scanner scanner = new Scanner(System.in);
 
-    }
+//     System.out.print("Enter first number: ");
+//     int num1 = scanner.nextInt();
+
+//     System.out.print("Enter second number: ");
+//     int num2 = scanner.nextInt();
+
+//     for (int i = num1; i <= num2; i++) {
+//         int sum = 0;
+//         int temp = i;
+
+//         while (temp != 0) {
+//             int r = temp % 10;
+//             sum += r * r * r;
+//             temp /= 10;
+//         }
+
+//         if (sum == i) {
+//             System.out.println(i + " is an Armstrong number");
+//         }
+// }
+
+}
 }
