@@ -93,10 +93,47 @@ public class Assignments {
     //     float usd = Rs/279;
     //     System.out.println("Your Given Amount " +Rs+ " converted in USD is "+usd);
 
+    // // Question 7: To calculate Fibonacci Series up to n numbers.
+    // Scanner input = new Scanner(System.in);
+    // System.out.print("How many terms do you want in fibonacci series? ");
+    // int n = input.nextInt();
+    // int a=0,b=1,c;
+    // System.out.println("Your Fibonacci series :");
+    // for(int i=1;i<=n;++i){
+    //     System.out.print(a+"\t");
+    //     c=a+b;
+    //     a=b;
+    //     b=c;
+    //     }  
     
-    
-       
 
+    // // Question 8: To find out whether the given string is Palindrome or not.
+       
+    // Scanner input = new Scanner(System.in);
+    // String str = input.nextLine();
+
+    // String rev = "";
+
+    // for (int i = str.length()-1; i >=0; i--) {
+
+    //     rev = rev + str.charAt(i);
+        
+    // }
+
+    // if (str.equals(rev)) {
+    //     System.out.println("String is palindrome");
+    // }
+    // else{
+    //     System.out.println("String is not palindrome");
+    // }
+
+
+    // Question 9: To find Armstrong Number between two given number.
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Enter first number: ");
+    int num1 = scanner.nextInt();
+    System.out.print("Enter second number: ");
+    int num2 = scanner.nextInt();
 
     }
 }
