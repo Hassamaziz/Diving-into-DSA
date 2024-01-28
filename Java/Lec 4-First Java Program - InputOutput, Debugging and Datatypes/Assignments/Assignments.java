@@ -69,6 +69,31 @@ public class Assignments {
     //        System.out.println("Invalid operator");
     //    }
         
+
+    //  // Question 5: Take 2 numbers as input and print the largest number.
+
+    // Scanner input = new Scanner(System.in);
+    // System.out.println("Enter First Number: ");
+    // int num1 = input.nextInt();
+    // System.out.println("Enter Second Number: ");
+    // int num2 = input.nextInt();
+    // if (num1 > num2) {
+    //     System.out.println("number 1 is greater than number 2");
+    //     } else if (num2 > num1) {
+    //         System.out.println("Number 2 is greater than number 1");
+    //         } else {
+    //             System.out.println("Both numbers are equal");
+    //         }
+
+    //  // Question 6: Input currency in rupees and output in USD.
+
+    //     Scanner input = new Scanner(System.in);
+    //     System.out.print("Enter amount of money in Rupees : ");
+    //     float Rs = input.nextFloat();
+    //     float usd = Rs/279;
+    //     System.out.println("Your Given Amount " +Rs+ " converted in USD is "+usd);
+
+    
     
        
 
