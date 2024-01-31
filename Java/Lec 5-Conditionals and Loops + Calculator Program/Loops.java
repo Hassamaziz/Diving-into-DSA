@@ -16,6 +16,15 @@ public class Loops {
             
         // }
 
-        
+
+        //   While Loop 
+
+        int num = 1;
+        while (num <=5) {
+            System.out.print(num + " ");
+            num++;
+        }
+
+
     }
 }
