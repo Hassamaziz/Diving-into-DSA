@@ -35,5 +35,29 @@ public class BasicQuestions{
 
         // System.out.println("The area of the rectangle is: " + area);
 
+        // Question 4: Area Of Isosceles Triangle 
+
+        // Scanner input  = new Scanner(System.in);
+        // System.out.print("Enter the Base of Isosceles Triangle");
+        // Double base = input.nextDouble();
+        // System.out.print("Enter the Height of Isosceles Triangle");
+        // Double height = input.nextDouble();
+
+        // Double area = (base*height)/2;
+        // System.out.println("The area of isosceles triangle is " +area);
+
+        // Question 5 : Area Of Parallelogram
+
+         // Scanner input = new Scanner(System.in);
+
+        // System.out.print("Enter length of Parallelogram : ");
+        // double len = input.nextDouble();
+        // System.out.print("Enter width of Parallelogram : ");
+        // double wid = input.nextDouble();
+        // double area = len * wid;
+
+        // System.out.println("The area of the Parallelogram is: " + area);
+
+
     }
 }
