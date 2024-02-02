@@ -164,6 +164,8 @@ public class BasicQuestions{
         // System.out.println("The Perimeter of the Equilateral triangle is: " +perimeter);
 
 
+
+
         // // Question 10 : Perimeter Of Parallelogram
         // Scanner in = new Scanner(System.in);
         // System.out.print("Enter base and height of parallelogram: ");
@@ -175,6 +177,35 @@ public class BasicQuestions{
         //   double perim = 2*(b+h);
         // System.out.println("Perimeter of the parallelogram is "+perim); 
         // }
+
+
+
+         // // Question 11 : Perimeter Of Rectangle
+        // Scanner in = new Scanner(System.in);
+        // System.out.print("Enter base and height of Rectangle: ");
+        // double b = in.nextDouble();
+        // double h = in.nextDouble();
+        // if ((b <= 0) || (h <= 0)) {
+        //     System.out.println("Invalid input, please enter positive numbers only.");
+        // } else {
+        //   double perim = 2*(b+h);
+        // System.out.println("Perimeter of the Rectangle is "+perim); 
+        // }
+
+
+
+        // // Question 12 : Perimeter Of Square
+        // Scanner in = new Scanner(System.in);
+        // System.out.print("Enter side length of square: ");
+        // double s = in.nextDouble();
+        // if (s <= 0){
+        //     System.out.println("Side length must be positive number");
+        // }else{
+        //   double perim = 4*s;
+        //   System.out.println("The perimeter of the square is " + perim);
+        // }
+
+
 
 
         
