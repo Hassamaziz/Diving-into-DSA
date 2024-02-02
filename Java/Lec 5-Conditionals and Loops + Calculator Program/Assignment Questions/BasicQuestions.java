@@ -123,7 +123,7 @@ public class BasicQuestions{
 
 
         // // Question 7 : Area of Equilateral Triangle
-        
+
         // Scanner input = new Scanner(System.in);
         // System.out.print("Enter the side length of an equilateral triangle: ");
         // double l = input.nextDouble();
@@ -133,6 +133,35 @@ public class BasicQuestions{
         //     double area = Math.sqrt(3) / 4 * (l*l);
         //     System.out.printf("The area of the equilateral triangle is " +area);
         // }
+
+
+
+        // // Question 8 : Perimeter Of Circle
+
+        // Scanner input = new Scanner(System.in);
+
+        // System.out.print("Enter the radius of a circle: ");
+        // double r = input.nextDouble();
+        // if (r<=0) {
+        //     System.out.println("Enter valid input..");
+        // } else {
+        //      double perimeter = 2 * Math.PI * r;
+        // System.out.println("The perimeter of the circle is: " +perimeter);
+            
+        // }
+       
+
+        // // Question 9 : Perimeter Of Equilateral Triangle
+
+        // Scanner input = new Scanner(System.in);
+        // System.out.print("Enter the side length of an equilateral triangle: ");
+        // double a=input.nextDouble();
+
+        //  if (a<=0) {
+        //     System.out.println("Enter valid input..");
+        // } else {
+        //      double perimeter = 3 *  a;
+        // System.out.println("The Perimeter of the Equilateral triangle is: " +perimeter);
 
 
 
