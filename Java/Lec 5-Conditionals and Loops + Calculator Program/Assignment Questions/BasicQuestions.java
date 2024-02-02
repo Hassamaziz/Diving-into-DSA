@@ -206,6 +206,20 @@ public class BasicQuestions{
         // }
 
 
+        
+
+        // Question 13 : Perimeter Of Rhombus
+
+          // Scanner in = new Scanner(System.in);
+        // System.out.print("Enter side length of Rhombus: ");
+        // double s = in.nextDouble();
+        // if (s <= 0){
+        //     System.out.println("Side length must be positive number");
+        // }else{
+        //   double perim = 4*s;
+        //   System.out.println("The Perimeter of the Rhombus is " + perim);
+        // }
+
 
 
         
