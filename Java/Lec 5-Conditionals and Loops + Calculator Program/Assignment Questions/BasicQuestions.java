@@ -164,6 +164,22 @@ public class BasicQuestions{
         // System.out.println("The Perimeter of the Equilateral triangle is: " +perimeter);
 
 
+        // // Question 10 : Perimeter Of Parallelogram
+        // Scanner in = new Scanner(System.in);
+        // System.out.print("Enter base and height of parallelogram: ");
+        // double b = in.nextDouble();
+        // double h = in.nextDouble();
+        // if ((b <= 0) || (h <= 0)) {
+        //     System.out.println("Invalid input, please enter positive numbers only.");
+        // } else {
+        //   double perim = 2*(b+h);
+        // System.out.println("Perimeter of the parallelogram is "+perim); 
+        // }
+
+
+        
+
+
 
     }
 }
