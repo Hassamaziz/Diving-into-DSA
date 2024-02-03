@@ -311,6 +311,20 @@ public class BasicQuestions{
     
 
 
+        // // Question 19:Curved Surface Area Of Cylinder
+        //     Scanner input = new Scanner(System.in);
+        //     System.out.print("Enter Radius:  ");
+        //     double R = input.nextDouble();
+        //     System.out.print("Enter Height:  ");
+        //     double H = input.nextDouble();
+        //     if ((R <= 0) || (H <= 0))
+        //         System.out.println("Invalid Input");
+        //     else {
+        //         double curved_surface_area = 2 * Math.PI * R * (H);
+        //         System.out.printf("The Curved Surface Area of the cylinder is %.2f", curved_surface_area);
+        //     }
+
+
 
 
         
