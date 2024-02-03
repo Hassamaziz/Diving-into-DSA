@@ -392,5 +392,23 @@ public class BasicQuestions{
         // }
 
 
+        // // Question 24:Take integer inputs till the user enters 0 and print the sum of all numbers
+        // Scanner scanner = new Scanner(System.in);
+       
+        //  int totalSum = 0;
+
+        // while (true) {
+        //     System.out.print("Enter a number(0 to stop) : ");
+        //      int num = scanner.nextInt();
+        //     if (num!=0) {
+        //          totalSum += num;
+        //     }
+        //     else break;
+    
+        // }
+        // System.out.println("The sum of all entered numbers is : "+totalSum);
+        
+
+
     }
 }
