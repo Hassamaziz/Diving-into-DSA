@@ -238,6 +238,25 @@ public class BasicQuestions{
 
 
 
+        // //  Question 15 : Volume Of Prism
+        // Scanner in = new Scanner(System.in);
+        // System.out.print("Length of prism: ");
+        // double l = in.nextDouble();
+        // System.out.print("Width of prism: ");
+        // double w = in.nextDouble();
+        // System.out.print("Height of prism: ");
+        // double h = in.nextDouble();
+        
+        // if((l<=0)||(w<=0)||(h<=0)){
+        //     System.out.println("Invalid Length or Width or Height.");
+        // }
+        // else{
+        //     double vol=l*w*h;
+        //     System.out.println("Volume of the prism is :"+vol);
+        // }
+
+
+
 
         
 
