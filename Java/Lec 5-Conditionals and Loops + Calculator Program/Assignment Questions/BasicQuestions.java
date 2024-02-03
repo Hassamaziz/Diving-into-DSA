@@ -287,6 +287,26 @@ public class BasicQuestions{
         // System.out.println("The volume of sphere is " +v);
         // }
       
+    
+
+
+
+        // // Question 18 :Volume Of Pyramid
+        // Scanner scan = new Scanner(System.in);
+        // System.out.print("Base length: ");
+        // double bl=scan.nextDouble();
+        
+        // System.out.print("Base width:  ");
+        // double bw=scan.nextDouble();
+        
+        // System.out.print("Height:      ");
+        // double h=scan.nextDouble();
+        // if((bl<=0)||(bw<=0)||(h<=0)){
+        //     System.out.println("Invalid Input!");
+        // }else{
+        //    double vol=(bl*bw*h)/3;
+        //    System.out.println("The Volume of pyramid is "+vol);  
+        //    }
 
     
 
