@@ -257,7 +257,7 @@ public class BasicQuestions{
 
 
 
-        
+
         // //  Question 16 : Volume Of Cylinder
         // Scanner in = new Scanner(System.in);
         // System.out.print("Radius:    ");
@@ -271,6 +271,24 @@ public class BasicQuestions{
         //     double volume = Math.PI*(r*r)*h;
         //     System.out.printf("Volume of cylinder is : "+volume);
         //     }
+
+
+
+
+        // // Question 17 :Volume Of Sphere
+        // Scanner scanner = new Scanner(System.in);
+        // System.out.print("Enter radius: ");
+        // double r = scanner.nextDouble();
+        // if (r<=0) {
+        //     System.out.println("Invalid Input!");
+            
+        // } else {
+        //       double v = 1.33333333333*Math.PI*(r*r*r);
+        // System.out.println("The volume of sphere is " +v);
+        // }
+      
+
+    
 
 
 
