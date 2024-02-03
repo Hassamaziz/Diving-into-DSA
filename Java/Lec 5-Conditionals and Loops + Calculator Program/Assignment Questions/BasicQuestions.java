@@ -257,6 +257,23 @@ public class BasicQuestions{
 
 
 
+        
+        // //  Question 16 : Volume Of Cylinder
+        // Scanner in = new Scanner(System.in);
+        // System.out.print("Radius:    ");
+        // double r = in.nextDouble();
+        // System.out.print("Height:   ");
+        // double h = in.nextDouble();
+        // if ((r <= 0) || (h <= 0))
+        //     System.out.println("Invalid input");
+        // else {
+
+        //     double volume = Math.PI*(r*r)*h;
+        //     System.out.printf("Volume of cylinder is : "+volume);
+        //     }
+
+
+
 
         
 
