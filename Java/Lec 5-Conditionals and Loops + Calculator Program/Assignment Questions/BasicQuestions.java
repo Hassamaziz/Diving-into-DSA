@@ -355,7 +355,24 @@ public class BasicQuestions{
         //     t2 = sum;
         // }
    
-        
+
+
+
+
+        // // Question 22 : Subtract the Product and Sum of Digits of an Integer
+        // Scanner scan = new Scanner(System.in);
+        // System.out.print("Enter a number: ");
+        // int num = scan.nextInt();
+        // int prod = 1;
+        // int sum = 0;
+        // while (num != 0){
+        //     int digit = num%10;
+        //     prod *= digit;
+        //     sum = sum + digit;
+        //     num = num /10;
+        //     }
+        // int diff = prod - sum;
+        // System.out.println("The difference between product and sum of digits is "+diff);
 
 
 
