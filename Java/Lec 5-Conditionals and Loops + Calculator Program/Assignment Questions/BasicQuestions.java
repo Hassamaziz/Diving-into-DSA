@@ -340,7 +340,21 @@ public class BasicQuestions{
         // }
 
 
-
+        // //Question 21: Fibonacci Series In Java Programs
+        // Scanner input = new Scanner(System.in);
+        // System.out.print("How many terms do you want to generate in fibonacci series? ");
+        // int n = input.nextInt();
+        
+        // int t1 = 0, t2 = 1;
+        // System.out.println("Your Fibonacci series is :");
+        // for (int i=1; i<=n; ++i)
+        // {
+        //     System.out.print(t1+"  ");
+        //     int sum = t1 + t2;
+        //     t1 = t2;
+        //     t2 = sum;
+        // }
+   
         
 
 
