@@ -206,7 +206,7 @@ public class BasicQuestions{
         // }
 
 
-        
+
 
         // Question 13 : Perimeter Of Rhombus
 
@@ -219,6 +219,23 @@ public class BasicQuestions{
         //   double perim = 4*s;
         //   System.out.println("The Perimeter of the Rhombus is " + perim);
         // }
+
+
+
+        // // Question 14 : Volume Of Cone Java Program
+        // Scanner in = new Scanner(System.in);
+        // System.out.print("Base radius: ");
+        // double r = in.nextDouble();
+        // System.out.print("Height:      ");
+        // double h = in.nextDouble();
+        // if ((r <= 0) || (h <= 0))
+        //     System.out.println("Invalid input");
+        // else {
+
+        //     double volume = (h/3)*Math.PI*(r*r);
+        //     System.out.printf("Volume of cone is : "+volume);
+        // }
+
 
 
 
