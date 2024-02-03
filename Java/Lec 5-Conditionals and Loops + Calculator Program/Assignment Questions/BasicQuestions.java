@@ -326,6 +326,20 @@ public class BasicQuestions{
 
 
 
+        // // Question 20 : Total Surface Area Of Cube
+        // Scanner scanner = new Scanner(System.in);
+        // System.out.print("Enter Length of Side: ");
+        // int l = scanner.nextInt();
+        // if (l<=0) {
+        //     System.out.println("Invalid Input");
+        // }
+        //  else {
+           
+        //     double area = 6 * (l*l);
+        //     System.out.println("Total Surface Area of the cube is " + area);
+        // }
+
+
 
         
 
