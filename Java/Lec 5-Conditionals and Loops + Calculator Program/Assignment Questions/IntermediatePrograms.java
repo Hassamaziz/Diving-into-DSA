@@ -1,4 +1,5 @@
 import java.lang.reflect.Array;
+import java.util.Calendar;
 import java.util.Scanner;
 
 public class IntermediatePrograms {
@@ -112,6 +113,22 @@ public class IntermediatePrograms {
         // else
         //     System.out.println(yr +" is not a Leap Year");
     
+
+
+
+
+        // //  Question 7: Kunal is allowed to go out with his friends only on the even days of a given month.
+        // //  Write a program to count the number of days he can go out in the month of August
+        // Calendar cal = Calendar.getInstance();
+
+        // cal.set(Calendar.MONTH, Calendar.AUGUST);
+        // int totalDaysInAugust = cal.getActualMaximum(Calendar.DAY_OF_MONTH);
+        // int numOfEvenDays = (totalDaysInAugust+1)/2;
+        // System.out.println("Number of Even Days in August : "+numOfEvenDays);
+
+
+
+
 
 
     }
