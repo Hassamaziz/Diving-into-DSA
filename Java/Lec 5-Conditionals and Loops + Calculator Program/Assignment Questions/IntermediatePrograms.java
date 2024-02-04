@@ -127,6 +127,34 @@ public class IntermediatePrograms {
         // System.out.println("Number of Even Days in August : "+numOfEvenDays);
 
 
+        
+
+        // // Question 8:Write a program to print the sum of negative numbers,
+        // //  sum of positive even numbers and the sum of positive odd numbers
+        // //  from a list of numbers (N) entered by the user.
+        // //  The list terminates when the user enters a zero.
+        // Scanner scanner = new Scanner(System.in);
+        // int sumPositiveOddNumbers=0;
+        // int sumPositiveEvenNumbers=0;
+        // int sumNegativeNumbers=0;
+        //     while (true) {
+        //         System.out.print("Enter an integer(0 to stop):");
+        //         int num = scanner.nextInt();
+        //         if (num==0) break;
+        //             if (num > 0 && num%2==0) {
+        //                 sumPositiveEvenNumbers+=num;
+        //             }
+        //             else if (num>0 && num%2!=0){
+        //                 sumPositiveOddNumbers += num;
+        //             }
+        //             else{
+        //                 sumNegativeNumbers -= num;
+        //             }
+                
+        //     }
+        //     System.out.println("\nSum of Positive Odd Numbers: "+sumPositiveOddNumbers);
+        //     System.out.println("Sum of Positive Even Numbers: "+sumPositiveEvenNumbers);
+        //     System.out.println("Sum of Negative Numbers: -"+sumNegativeNumbers);
 
 
 
