@@ -427,5 +427,20 @@ public class BasicQuestions{
     //    }
     //    System.out.println("The maximum value you have entered is:"+max);
 
+
+
+    // // Question 26: Addition Of Two Numbers
+    // Scanner input = new Scanner(System.in);
+    // System.out.print("Enter first Number:");
+    // int x = input.nextInt();
+    // System.out.print("Enter Second Number:");
+    // int y = input.nextInt();
+    // int z = x + y;
+    // System.out.println("The Sum of " +x+" And "+y+" is : "+z);
+
+
+
+
+
     }
 }
