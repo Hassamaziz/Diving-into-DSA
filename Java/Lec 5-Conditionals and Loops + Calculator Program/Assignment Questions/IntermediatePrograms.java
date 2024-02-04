@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class IntermediatePrograms {
@@ -25,6 +26,26 @@ public class IntermediatePrograms {
         // }
         // double avg = sum / n;
         // System.out.printf("The average of %d numbers is %.2f", n, avg);
+
+
+        // // Question 3:Armstrong Number In Java
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter a number to check if it's an Armstrong number or not : ");
+        // int num = sc.nextInt();
+        // System.out.print("Give number of digits in number : ");
+        // int digitCount = sc.nextInt();
+        // int rem, sum = 0, l = num;
+        // while (l != 0) {
+        //     rem = l % 10;
+        //     sum += Math.pow(rem,digitCount);
+        //     l /= 10;
+            
+        // }
+        // if (sum == num)
+        //     System.out.println(num + " is an Armstrong number.");
+        // else
+        //     System.out.println(num + " is not an Armstrong number.");
+    
 
     }
 }
