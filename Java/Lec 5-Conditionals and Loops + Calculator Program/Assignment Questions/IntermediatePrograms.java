@@ -82,6 +82,25 @@ public class IntermediatePrograms {
         //     System.out.println(originalNumber+" is not a Palindrome Number");
         
 
+
+
+        // // Question 6: Perfect Number In Java
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter a number to check whether it's perfect or not : ");
+        // int n = sc.nextInt();
+        // int sum = 0;
+        // for(int i=1 ; i<=n/2 ; i++) {
+        //     if(n % i == 0 ) {
+        //         sum += i;
+        //     }
+        // }
+        // if(sum == n) {
+        //     System.out.println(n + " is a Perfect Number");
+        // }else{
+        //     System.out.println(n + " is not a Perfect Number");
+        // }
+
+
     }
 
 }
