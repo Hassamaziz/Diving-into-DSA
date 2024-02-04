@@ -392,6 +392,9 @@ public class BasicQuestions{
         // }
 
 
+
+
+
         // // Question 24:Take integer inputs till the user enters 0 and print the sum of all numbers
         // Scanner scanner = new Scanner(System.in);
        
@@ -409,6 +412,20 @@ public class BasicQuestions{
         // System.out.println("The sum of all entered numbers is : "+totalSum);
         
 
+
+
+
+    //     //  Question 25: Take integer inputs till the user enters 0 and print the largest number from all.
+    //     Scanner input = new Scanner(System.in);
+    //    int max=0;
+    //    while(true){
+    //     System.out.print("Enter an integer(0 to stop):");
+    //        int num=input.nextInt();
+    //         if(max<num)
+    //             max=num;
+    //        if(num==0)break;
+    //    }
+    //    System.out.println("The maximum value you have entered is:"+max);
 
     }
 }
