@@ -101,6 +101,19 @@ public class IntermediatePrograms {
         // }
 
 
+
+
+        // // Question 6: Check Leap Year Or Not
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter the year to check leap year or not : ");
+        // int yr = sc.nextInt();
+        // if ((yr % 4 == 0 && yr % 100 != 0) || yr % 400 == 0)
+        //     System.out.println(yr +" is a Leap Year");
+        // else
+        //     System.out.println(yr +" is not a Leap Year");
+    
+
+
     }
 
 }
