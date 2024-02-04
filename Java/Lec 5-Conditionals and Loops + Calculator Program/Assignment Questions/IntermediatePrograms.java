@@ -58,5 +58,31 @@ public class IntermediatePrograms {
         // }
         // System.out.println("Reversed String : "+rev);
 
+
+
+
+        // //  Question 5: Find if a number is palindrome or not
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter the number : ");
+        // int num = sc.nextInt();
+        // int rem =0;
+        // int originalNumber = num;
+        // int reverse = 0;
+        // while (true) {
+        //     rem =num%10;
+        //     reverse =reverse*10+rem;
+        //     num/=10;
+        //     if(num==0){
+        //         break;
+        //     }
+        // }
+        // if (originalNumber == reverse)
+        //     System.out.println(originalNumber+" is a Palindrome Number");
+        // else
+        //     System.out.println(originalNumber+" is not a Palindrome Number");
+        
+
     }
+
 }
+
