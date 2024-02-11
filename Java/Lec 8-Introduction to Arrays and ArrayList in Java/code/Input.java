@@ -15,10 +15,17 @@ public class Input {
     System.out.println( "The entered numbers are:");
     
     //displaying the array elements
-for (int i = 0; i < arr.length; i++) {
-    System.out.print(arr[i]+" ");
+
+    // Advanced for loop for displaying 
+    for(int num:arr){
+        System.out.print(num + " ");
+    }
+
+
+// for (int i = 0; i < arr.length; i++) {
+//     System.out.print(arr[i]+" ");
     
-}
+// }
 
     // System.out.println(Arrays.toString(arr));
 }
