@@ -19,6 +19,18 @@ public class ArrayListExample {
       
 
         System.out.println(list); 
+
+        System.out.println(list.contains(34));
+
+        list.set(0, 69);
+
+        System.out.println(list); 
+
+        list.remove(4);
+
+        System.out.println(list);
+        
+
         
 
     }
