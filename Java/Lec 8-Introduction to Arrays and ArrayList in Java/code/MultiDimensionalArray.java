@@ -1,5 +1,6 @@
 package code;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MultiDimensionalArray {
@@ -33,6 +34,19 @@ public class MultiDimensionalArray {
         //     }
             
         // }
+
+                    //  Enhanced way of displaying
+
+
+                   
+                    // for (int row = 0; row < arr.length; row++) {
+                    //     System.out.println(Arrays.toString(arr[row])); 
+                    // }
+
+                    // enhanced for loop 
+               for(int[] a: arr){
+                System.out.println(Arrays.toString(a));
+               }
 
 
     }
