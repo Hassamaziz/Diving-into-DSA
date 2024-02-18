@@ -27,12 +27,14 @@ public class DiagonalSumMatrix {
         
         for (int i=0 ; i < mat.length ;i++){
              sum += mat[i][i];
-           if (i!=mat.length-i-1) {
-            sum+= mat[i][mat.length -i-1];
+             sum+= mat[i][mat.length -1-i];
+             } 
+           if (mat.length%2 !=0) {
+            sum -= mat[(mat.length)/2][(mat.length)/2];
             
            }
            
-        }    
+          
 
         return sum;
 
