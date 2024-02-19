@@ -13,10 +13,7 @@ public class DiagonalSumMatrix {
         {{1,2,3},
          {4,5,6},
          {7,8,9}};
-        // { {1,1,1,1},
-        //   {1,1,1,1},
-        //   {1,1,1,1},
-        //   {1,1,1,1}};
+      
        
           System.out.println(mat.length);
           System.out.println("The sum of the primary diagonal is: " + findDiagonalSum(mat));
