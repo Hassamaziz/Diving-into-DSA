@@ -1,28 +1,35 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class AddtoArray {
     public static void main(String[] args) {
-        int[] num = {2,7,4};
-        int k = 181;
-        int[] res = (addToArrayForm(num,k));
-        System.out.println(Arrays.toString(res));
+        int[] num = {1,2,0,0};
+        int k = 34;
+        ArrayList<Integer> res = new ArrayList<>(addToArrayForm(num,k));
+        System.out.println("The result is: " + Arrays.toString(res.toArray()));
+       
     }
 
-    static int[] addToArrayForm(int[] num, int k) {
-        int[] array = new int[num.length];
-        int totalnum = 0;
-        int totalsum = 0;
+    static ArrayList<Integer> addToArrayForm(int[] num, int k) {
+      ArrayList<Integer> list = new ArrayList<>();
 
-        for (int i = 0; i < num.length; i++) {
-            totalnum = totalnum *10 + num[i]; 
-        }
-        totalsum = totalnum+k;
-        for (int i = num.length-1; i>=0; i--) {
-            array[i] = totalsum % 10;
-            totalsum /= 10; 
+        for (int i = num.length - 1; i >= 0; i--) {
+
+            list.add(0, (num[i] + k) % 10);
+          
+           
+            k = (num[i] + k) / 10;
             
         }
-        return array;
+
+        while (k > 0) {
+            list.add(0, k % 10);
+            k /= 10;
+        }
+
+        return list;
+
 
        
     }
