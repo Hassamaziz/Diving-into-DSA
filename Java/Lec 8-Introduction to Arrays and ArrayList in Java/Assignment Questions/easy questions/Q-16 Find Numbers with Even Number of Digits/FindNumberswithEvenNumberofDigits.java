@@ -16,11 +16,7 @@ public class FindNumberswithEvenNumberofDigits {
             }
             if(digit % 2 == 0)
                 count++;
-    
-        
         }
-        
-            
         return count;
 
     } 

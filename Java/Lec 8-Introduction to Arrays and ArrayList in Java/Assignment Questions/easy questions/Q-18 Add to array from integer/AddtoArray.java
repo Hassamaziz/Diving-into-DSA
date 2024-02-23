@@ -15,12 +15,8 @@ public class AddtoArray {
       ArrayList<Integer> list = new ArrayList<>();
 
         for (int i = num.length - 1; i >= 0; i--) {
-
             list.add(0, (num[i] + k) % 10);
-          
-           
             k = (num[i] + k) / 10;
-            
         }
 
         while (k > 0) {
