@@ -14,14 +14,21 @@ static boolean canBeObtained(int[][] mat, int[][] target) {
     int n  = mat.length;
     for (int i = 0; i <n;i++) {
         for (int j = 0; j < n; j++) {
-            if (target[i][j]==mat[n-j-1][i]) 
-                c90++;  
-                if (target[i][j]==mat[n-i-1][n-j-1]) 
-                c180++; 
-                if (target[i][j]==mat[j][n-i-1]) 
+            if (target[i][j]==mat[n-j-1][i]) {
+          
+                c90++;  }
+                if (target[i][j]==mat[n-i-1][n-j-1]) {
+              
+                c180++;
+             }
+                if (target[i][j]==mat[j][n-i-1]) {
+                   
                 c270++;
-                if (target[i][j]==mat[i][j]) 
-                c360++;            
+            }
+                if (target[i][j]==mat[i][j]) {
+                  
+                c360++;  
+               }       
         }
         
     }
