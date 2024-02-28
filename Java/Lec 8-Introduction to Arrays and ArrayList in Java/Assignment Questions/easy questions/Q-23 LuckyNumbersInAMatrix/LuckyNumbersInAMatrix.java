@@ -1,0 +1,64 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class LuckyNumbersInAMatrix {
+    public static void main(String[] args) {
+        // Given an m x n matrix of distinct numbers, return all lucky numbers in the matrix in any order
+        // A lucky number is an element of the matrix such that it is the minimum element in its row 
+        // and maximum in its column.
+        int[][] mat = {{7,8},{1,2}};
+       
+        ArrayList<Integer> arr = new ArrayList<>(findLucky(mat));
+        for (int i : arr)
+            System.out.print(i + " ");
+    }
+    static ArrayList<Integer> findLucky(int[][] matrix){
+       ArrayList<Integer> list = new ArrayList<>();
+         int m = matrix.length;
+         int n = matrix[0].length;
+         int[] rowMin = new int[m];
+         int[] index = new int[m];
+         int[] colMax = new int[n];
+         
+         for(int i = 0; i < m; i++)
+         { 
+           int min = matrix[i][0];
+           int ind = 0;
+           for(int j = 0; j < n; j++)
+           {
+             if(min > matrix[i][j]){   
+               ind = j;                
+               min = matrix[i][j];  
+             }
+           }
+           rowMin[i] = min; 
+           index[i] = ind;
+         }
+         //To find the max in a column
+         for(int i = 0; i < n; i++)
+         {
+           int max = matrix[0][i];
+           for(int j = 0; j < m; j++)
+           {
+             if(max < matrix[j][i])
+             {
+               max = matrix[j][i];
+             }
+           }
+           colMax[i] = max;
+         }
+         matrix = null;
+        
+         for(int i = 0; i < m; i++)
+         {
+           if(rowMin[i] == colMax[index[i]]){
+             list.add(rowMin[i]);
+           }
+         }
+         rowMin = null;
+         colMax = null;
+         return list;
+
+    }
+}
