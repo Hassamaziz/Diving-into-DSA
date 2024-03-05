@@ -4,8 +4,8 @@ import java.util.List;
 
 public class AddtoArray {
     public static void main(String[] args) {
-        int[] num = {1,2,0,0};
-        int k = 34;
+        int[] num = {9};
+        int k = 1;
         ArrayList<Integer> res = new ArrayList<>(addToArrayForm(num,k));
         System.out.println("The result is: " + Arrays.toString(res.toArray()));
        
@@ -15,8 +15,9 @@ public class AddtoArray {
       ArrayList<Integer> list = new ArrayList<>();
 
         for (int i = num.length - 1; i >= 0; i--) {
-            list.add(0, (num[i] + k) % 10);
+            list.add(0, (num[i] + k) % 10); 
             k = (num[i] + k) / 10;
+           
         
         }
 
