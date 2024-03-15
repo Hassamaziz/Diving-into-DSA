@@ -14,7 +14,7 @@ public class Input {
 
     System.out.println( "The entered numbers are:");
     
-    //displaying the array elements
+    //displaying the array
 
     // Advanced for loop for displaying 
     for(int num:arr){
