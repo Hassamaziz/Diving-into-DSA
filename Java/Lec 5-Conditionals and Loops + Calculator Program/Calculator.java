@@ -6,7 +6,7 @@ public class Calculator {
         // Take input from user till user does not press X or x
         int ans = 0;
         while (true) {
-            // take the operator as input
+            // take the operator input
             System.out.print("Enter the operator: ");
             char op = in.next().trim().charAt(0);
 
