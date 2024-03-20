@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class SpiralMatrixOne {
     public static void main(String[] args) {
-        // Given an m x n matrix, return all elements of the matrix in spiral order.
+        // Given an m x n matrix, return all elements of the matrix in spiral style order
         int[][] matrix = {{1,2,3}, {4,5,6}, {7,8,9}};
         System.out.println("Spiral Order: ");
         ArrayList<Integer> res= new ArrayList<>(printSpiralOrder(matrix)); 
