@@ -8,7 +8,7 @@ public class NestedSwitch {
 
         // switch (empID) {
         //     case 1:
-        //         System.out.println("Kunal Kushwaha");
+        //         System.out.println("Kunal");
         //         break;
         //     case 2:
         //         System.out.println("Rahul Rana");
