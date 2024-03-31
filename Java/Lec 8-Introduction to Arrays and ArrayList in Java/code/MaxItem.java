@@ -8,7 +8,7 @@ public class MaxItem {
         int[] arr = {23,5,74,2,5,6};
 
 
-                    //  To find max 
+                    //  To find max value
 
         System.out.println("Enter the range from where you want to see the maximum value : ");
         int start = input.nextInt();
