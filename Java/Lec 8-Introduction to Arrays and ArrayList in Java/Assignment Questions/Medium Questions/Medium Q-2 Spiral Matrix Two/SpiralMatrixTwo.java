@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 public class SpiralMatrixTwo {
     public static void main(String[] args) {
+        // Spiral Matrix 2
         int n = 1;
           int[][] res= printSpiralOrder(n); 
           System.out.println( "Output Matrix:");
