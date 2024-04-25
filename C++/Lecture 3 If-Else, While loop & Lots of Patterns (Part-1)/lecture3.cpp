@@ -5,7 +5,7 @@ int main(){
     // int n;
 //  cout << "Enter the number of elements: ";
 //     cin>>n;
-//     cout << "value of n is "<< n <<endl;
+//     cout << "value of n "<< n <<endl;
 
 
 // int a;

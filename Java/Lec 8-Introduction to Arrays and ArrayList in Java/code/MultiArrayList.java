@@ -13,7 +13,7 @@ public class MultiArrayList {
         
 
 
-        // Initialization 
+        // Initialization of arraylist
         for (int i = 0; i < 3; i++) {
             list.add(new ArrayList<>());
         }
