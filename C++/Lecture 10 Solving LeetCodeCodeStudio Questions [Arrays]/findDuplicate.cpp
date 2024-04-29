@@ -13,7 +13,7 @@ int main(){
     ans = ans^i;
     
     }
-    cout<<"The duplicate number is "<<ans<<endl;
+    cout<<"The duplicate number in given array is "<<ans<<endl;
 
     
 }
