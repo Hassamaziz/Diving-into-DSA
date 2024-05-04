@@ -4,7 +4,7 @@ public class TwoSum{
     public static void main(String[] args) {
         int arr[] = new int[]{44, 2, 11, 15};
         int target = 17;
-        System.out.println("Indexes of the two elements whose sum is " + target);
+        System.out.println("Indexes of the two elements whose sum are " + target);
         printIndicesOfTwoElements(arr, target);
     }
     static void printIndicesOfTwoElements(int[] arr, int target){
